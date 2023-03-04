@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <script>
+      MathJax = {
+        loader: { load: ["input/asciimath", "output/chtml"] },
+      };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script
+      type="text/javascript"
+      id="MathJax-script"
+      async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"
+    ></script>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div
+      class="md:mx-auto md:my-28 md:shadow-2xl  font-touse md:rounded-3xl h-screen w-full md:flex md:flex-row bg-white md:w-[44rem] md:h-[26rem]"
+    >
+      <div
+        class="bg-gradient-to-t via-violetblue from-cobalt-blue to-slate-blue md:basis-6/12 z-50 rounded-b-[2.5rem] md:rounded-3xl pt-8 pb-9"
+      >
+        <div class="text-center text-slate-50 font-bold rounded-full">
+          <p class="text-xl mb-6 opacity-40">Your Result</p>
+          <div
+            class="bg-gradient-to-t from-cobalt-blue to-violetblue text-center items-center w-40 mx-auto h-40 text-white p-2 rounded-full"
+          >
+    <div class="my-9" >
+              <p class="text-5xl font-bold">76</p>
+              <p class="text-slate-100 text-sm opacity-40">of 100</p>
+    </div>
+          </div>
+          <p class="mt-4 text-gray-50/90 text-3xl">Great</p>
+          <p class="opacity-30 w-9/12 font-bold text-lg mx-auto pb-1 1mt-4 md:mt-5">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <div class="md:basis-6/12 flex flex-col -mr-8  pl-10">
+        <div class="mt-2">
+          <div class=" font-bold text-2xl w-10/12 text-dark-grey-blue py-4">
+            Summary
+          </div>
+          <div
+            class="h-7 p-6 bg-light-red/20 w-10/12 flex flex-row items-center justify-between mb-3 rounded-md text-lg"
+          >
+            <span class="text-light-red">
+              <img
+                class="inline"
+                src="./assets/images/icon-reaction.svg"
+                alt=""
+              />
+              Reaction</span
+            >
+  
+            <span
+              ><span class="font-bold text-dark-grey-blue"> 80 </span><span class="font-bold text-dark-grey-blue opacity-30"> / 100</span></span
+            >
+          </div>
+          <div
+            class="h-7 bg-orange-yellow/20  w-10/12 flex flex-row items-center justify-between p-6 mb-3 rounded-md text-lg"
+          >
+            <span class="text-orange-yellow">
+              <img class="inline" src="./assets/images/icon-memory.svg" alt="" />
+              Memory</span
+            >
+            <span
+              ><span class="font-bold text-dark-grey-blue">95</span> <span class="font-bold text-dark-grey-blue opacity-30">/ 100</span></span
+            >
+          </div>
+          <div
+            class=" bg-green-teal/20  w-10/12 flex flex-row items-center justify-between h-7 p-6 mb-3 rounded-md text-lg"
+          >
+            <span class="text-green-teal">
+              <img class="inline" src="./assets/images/icon-verbal.svg" alt="" />
+              Verbal</span
+            >
+            <span
+              ><span class="font-bold text-dark-grey-blue">61</span> <span class="font-bold text-dark-grey-blue opacity-30">/ 100</span></span
+            >
+          </div>
+          <div
+            class=" mb-7 bg-slate-blue/20  w-10/12 flex flex-row items-center justify-between h-7 p-6 rounded-md text-lg"
+          >
+            <span class="text-slate-blue">
+              <img class="inline" src="./assets/images/icon-visual.svg" alt="" />
+              Visual
+            </span>
+            <span
+           
+              ><span class="font-bold opacity-100 text-dark-grey-blue">72 </span><span  class="font-bold text-dark-grey-blue opacity-30"> / 100</>
+            </span>
+          </div>
+          <button
+            class="rounded-full hover:bg-royal-blue  w-10/12 h-12 md:h-12 text-lg font-bold  text-white bg-dark-grey-blue"
+          >
+            Continue
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution hidden md:visible">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Levi</a>.
+    </div>
+  </body>
+</html>
