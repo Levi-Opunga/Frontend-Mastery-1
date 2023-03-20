@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: 'JetBrainsMono Nerd Font';
-    src: url('/fonts/JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete.ttf');
+    src: url('./../fonts/JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete.ttf');
 }
 
 @font-face {
     font-family: 'Hanken Grotesk';
-    src: url('/fonts/HankenGrotesk-VariableFont_wght.ttf');
+    src: url('./../fonts/HankenGrotesk-VariableFont_wght.ttf');
 }
 
 @tailwind base;

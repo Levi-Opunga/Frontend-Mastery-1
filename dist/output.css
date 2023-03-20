@@ -7,13 +7,13 @@
 @font-face {
   font-family: 'JetBrainsMono Nerd Font';
 
-  src: url('/fonts/JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete.ttf');
+  src: url('./../fonts/JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete.ttf');
 }
 
 @font-face {
   font-family: 'Hanken Grotesk';
 
-  src: url('/fonts/HankenGrotesk-VariableFont_wght.ttf');
+  src: url('./../fonts/HankenGrotesk-VariableFont_wght.ttf');
 }
 
 /*
@@ -683,10 +683,6 @@ video {
 .my-9{
   margin-top: 2.25rem;
   margin-bottom: 2.25rem;
-}
-
-.-mr-8{
-  margin-right: -2rem;
 }
 
 .mb-3{
@@ -2508,10 +2504,6 @@ video {
 }
 
 @media (min-width: 768px){
-  .md\:visible{
-    visibility: visible;
-  }
-
   .md\:mx-auto{
     margin-left: auto;
     margin-right: auto;
@@ -2522,12 +2514,12 @@ video {
     margin-bottom: 7rem;
   }
 
-  .md\:mt-5{
-    margin-top: 1.25rem;
-  }
-
   .md\:-mr-8{
     margin-right: -2rem;
+  }
+
+  .md\:mt-5{
+    margin-top: 1.25rem;
   }
 
   .md\:flex{
@@ -2556,10 +2548,6 @@ video {
 
   .md\:rounded-3xl{
     border-radius: 1.5rem;
-  }
-
-  .md\:pl-10{
-    padding-left: 2.5rem;
   }
 
   .md\:shadow-2xl{

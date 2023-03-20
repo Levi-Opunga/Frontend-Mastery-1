@@ -13,6 +13,7 @@
     />
 
     <title>Frontend Mentor | Results summary component</title>
+<script type="module"> import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.0.2/+esm' </script>
     <script>
       MathJax = {
         loader: { load: ["input/asciimath", "output/chtml"] },
@@ -124,11 +125,19 @@
       </div>
     </div>
 
-    <div class="attribution hidden md:visible">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Levi</a>.
+    <div class="mermaid hidden">
+    sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+
     </div>
   </body>
 </html>
